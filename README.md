@@ -1,6 +1,6 @@
 # Test
 
-BESSER project repository.
+BESSER project repository. This project has been claimed by Aaron. 
 
 ## About
 
