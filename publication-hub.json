@@ -30,12 +30,13 @@
             "bounds": {
               "x": -130,
               "y": -200,
-              "width": 160,
-              "height": 100
+              "width": 290,
+              "height": 130
             },
             "attributes": [
               "774f30e5-f2da-4813-a326-5219e3a46193",
-              "99b5ef0a-2de4-4532-978c-0424268368fd"
+              "99b5ef0a-2de4-4532-978c-0424268368fd",
+              "26215fcf-51b0-49b1-93a3-11ba94444e4f"
             ],
             "methods": []
           },
@@ -47,7 +48,7 @@
             "bounds": {
               "x": -129.5,
               "y": -159.5,
-              "width": 159,
+              "width": 289,
               "height": 30
             },
             "code": "",
@@ -65,12 +66,30 @@
             "bounds": {
               "x": -129.5,
               "y": -129.5,
-              "width": 159,
+              "width": 289,
               "height": 30
             },
             "code": "",
             "visibility": "public",
             "attributeType": "int",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "26215fcf-51b0-49b1-93a3-11ba94444e4f": {
+            "id": "26215fcf-51b0-49b1-93a3-11ba94444e4f",
+            "name": "publication_type",
+            "type": "ClassAttribute",
+            "owner": "85f9205f-bee9-4d29-a13f-df03bbc200df",
+            "bounds": {
+              "x": -129.5,
+              "y": -99.5,
+              "width": 289,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "Publication_Types",
             "implementationType": "none",
             "stateMachineId": "",
             "quantumCircuitId": ""
@@ -1034,6 +1053,135 @@
             "implementationType": "none",
             "stateMachineId": "",
             "quantumCircuitId": ""
+          },
+          "8d7aadf7-f43a-4ebb-9974-26765cf96fd1": {
+            "id": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "name": "Publication_Types",
+            "type": "Enumeration",
+            "owner": null,
+            "bounds": {
+              "x": 190,
+              "y": -390,
+              "width": 160,
+              "height": 230
+            },
+            "attributes": [
+              "d23aaadb-51cc-4020-b448-a52eb83912e4",
+              "db2411e5-b78e-4828-b03d-98029dd7317b",
+              "0c3c407b-0a12-4c0a-aaf2-a284399cb2a8",
+              "33066ad3-6799-4624-b41f-f3c07098e074",
+              "584c462b-4202-4db8-9bfb-33ac8060febd",
+              "1f46094f-7019-41ec-b893-463e0a850fd6"
+            ],
+            "methods": []
+          },
+          "d23aaadb-51cc-4020-b448-a52eb83912e4": {
+            "id": "d23aaadb-51cc-4020-b448-a52eb83912e4",
+            "name": "Journal",
+            "type": "ClassAttribute",
+            "owner": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "bounds": {
+              "x": 190.5,
+              "y": -339.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "db2411e5-b78e-4828-b03d-98029dd7317b": {
+            "id": "db2411e5-b78e-4828-b03d-98029dd7317b",
+            "name": "Conference",
+            "type": "ClassAttribute",
+            "owner": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "bounds": {
+              "x": 190.5,
+              "y": -309.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "0c3c407b-0a12-4c0a-aaf2-a284399cb2a8": {
+            "id": "0c3c407b-0a12-4c0a-aaf2-a284399cb2a8",
+            "name": "Others",
+            "type": "ClassAttribute",
+            "owner": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "bounds": {
+              "x": 190.5,
+              "y": -279.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "33066ad3-6799-4624-b41f-f3c07098e074": {
+            "id": "33066ad3-6799-4624-b41f-f3c07098e074",
+            "name": "Proceedings",
+            "type": "ClassAttribute",
+            "owner": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "bounds": {
+              "x": 190.5,
+              "y": -249.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "584c462b-4202-4db8-9bfb-33ac8060febd": {
+            "id": "584c462b-4202-4db8-9bfb-33ac8060febd",
+            "name": "Thesis",
+            "type": "ClassAttribute",
+            "owner": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "bounds": {
+              "x": 190.5,
+              "y": -219.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
+          },
+          "1f46094f-7019-41ec-b893-463e0a850fd6": {
+            "id": "1f46094f-7019-41ec-b893-463e0a850fd6",
+            "name": "Book",
+            "type": "ClassAttribute",
+            "owner": "8d7aadf7-f43a-4ebb-9974-26765cf96fd1",
+            "bounds": {
+              "x": 190.5,
+              "y": -189.5,
+              "width": 159,
+              "height": 30
+            },
+            "code": "",
+            "visibility": "public",
+            "attributeType": "str",
+            "implementationType": "none",
+            "stateMachineId": "",
+            "quantumCircuitId": ""
           }
         },
         "relationships": {
@@ -1078,10 +1226,10 @@
             "type": "ClassUnidirectional",
             "owner": null,
             "bounds": {
-              "x": 30,
-              "y": -135,
-              "width": 420,
-              "height": 236
+              "x": 160,
+              "y": -112.5,
+              "width": 290,
+              "height": 213.5
             },
             "path": [
               {
@@ -1089,16 +1237,16 @@
                 "y": 10
               },
               {
-                "x": 210,
+                "x": 145,
                 "y": 10
               },
               {
-                "x": 210,
-                "y": 215
+                "x": 145,
+                "y": 192.5
               },
               {
-                "x": 420,
-                "y": 215
+                "x": 290,
+                "y": 192.5
               }
             ],
             "source": {
@@ -1122,14 +1270,14 @@
             "owner": null,
             "bounds": {
               "x": -725,
-              "y": -185,
+              "y": -177.5,
               "width": 595,
-              "height": 285
+              "height": 277.5
             },
             "path": [
               {
                 "x": 5,
-                "y": 285
+                "y": 277.5
               },
               {
                 "x": 5,
@@ -1161,14 +1309,14 @@
             "owner": null,
             "bounds": {
               "x": -545,
-              "y": -185,
+              "y": -177.5,
               "width": 415,
-              "height": 285
+              "height": 277.5
             },
             "path": [
               {
                 "x": 5,
-                "y": 285
+                "y": 277.5
               },
               {
                 "x": 5,
@@ -1200,14 +1348,14 @@
             "owner": null,
             "bounds": {
               "x": -365,
-              "y": -185,
+              "y": -177.5,
               "width": 235,
-              "height": 285
+              "height": 277.5
             },
             "path": [
               {
                 "x": 5,
-                "y": 285
+                "y": 277.5
               },
               {
                 "x": 5,
@@ -1239,22 +1387,22 @@
             "owner": null,
             "bounds": {
               "x": -170,
-              "y": -185,
+              "y": -177.5,
               "width": 175,
-              "height": 315
+              "height": 307.5
             },
             "path": [
               {
                 "x": 170,
-                "y": 315
+                "y": 307.5
               },
               {
                 "x": 170,
-                "y": 275
+                "y": 267.5
               },
               {
                 "x": 0,
-                "y": 275
+                "y": 267.5
               },
               {
                 "x": 0,
@@ -1286,22 +1434,22 @@
             "owner": null,
             "bounds": {
               "x": -170,
-              "y": -185,
+              "y": -177.5,
               "width": 375,
-              "height": 325
+              "height": 317.5
             },
             "path": [
               {
                 "x": 370,
-                "y": 325
+                "y": 317.5
               },
               {
                 "x": 370,
-                "y": 285
+                "y": 277.5
               },
               {
                 "x": 0,
-                "y": 285
+                "y": 277.5
               },
               {
                 "x": 0,
@@ -1333,14 +1481,14 @@
             "owner": null,
             "bounds": {
               "x": -175,
-              "y": -185,
+              "y": -177.5,
               "width": 45,
-              "height": 295
+              "height": 287.5
             },
             "path": [
               {
                 "x": 5,
-                "y": 295
+                "y": 287.5
               },
               {
                 "x": 5,
@@ -1371,14 +1519,14 @@
             "type": "ClassComposition",
             "owner": null,
             "bounds": {
-              "x": 30,
-              "y": -155,
-              "width": 430,
+              "x": 160,
+              "y": -140,
+              "width": 300,
               "height": 31
             },
             "path": [
               {
-                "x": 430,
+                "x": 300,
                 "y": 10
               },
               {
@@ -1403,7 +1551,7 @@
         },
         "assessments": {}
       },
-      "lastUpdate": "2026-02-03T10:05:44.823Z"
+      "lastUpdate": "2026-02-03T11:39:40.465Z"
     },
     "ObjectDiagram": {
       "id": "f89525d9-5e80-4fbb-b961-318312e8d39c",
@@ -3437,20 +3585,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "in8oo"
+                        "id": "iv6l6"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "iwzmr"
+                            "id": "i2h5q"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "iqsri"
+                                "id": "ityuj"
                               },
                               "components": [
                                 {
@@ -3461,14 +3609,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "iaiib"
+                                "id": "iix0g"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "iiddu"
+                                    "id": "i4m7p"
                                   },
                                   "components": [
                                     {
@@ -3481,7 +3629,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "immha"
+                                    "id": "iw8ik"
                                   },
                                   "components": [
                                     {
@@ -3494,7 +3642,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "i082l"
+                                    "id": "i3hcj"
                                   },
                                   "components": [
                                     {
@@ -3507,7 +3655,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "ipf17"
+                                    "id": "ijhgp"
                                   },
                                   "components": [
                                     {
@@ -3520,7 +3668,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "it8ku"
+                                    "id": "i1kpz"
                                   },
                                   "components": [
                                     {
@@ -3533,7 +3681,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "iqwll"
+                                    "id": "iyqng"
                                   },
                                   "components": [
                                     {
@@ -3546,7 +3694,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "i8c6g"
+                                    "id": "i5v8k"
                                   },
                                   "components": [
                                     {
@@ -3559,7 +3707,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "i8p3h"
+                                    "id": "ihnh3"
                                   },
                                   "components": [
                                     {
@@ -3572,7 +3720,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "ibt39"
+                                    "id": "i3w1l"
                                   },
                                   "components": [
                                     {
@@ -3586,7 +3734,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "ismp6"
+                                "id": "ip60j"
                               },
                               "components": [
                                 {
@@ -3600,14 +3748,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "ilb13"
+                            "id": "ij8aj"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "i4q94"
+                                "id": "issun"
                               },
                               "components": [
                                 {
@@ -3620,7 +3768,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ilzjz"
+                                "id": "i0hkj"
                               },
                               "components": [
                                 {
@@ -3651,6 +3799,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -3692,6 +3846,12 @@
                                 {
                                   "field": "year",
                                   "label": "Year",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
                                   "columnType": "field",
                                   "_expanded": false
                                 },
@@ -3765,7 +3925,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "VOXLyk98QiPs7TBx"
+                "id": "tdIJKYq3tQBP0f8E"
               }
             ],
             "id": "page-publication-0",
@@ -3789,20 +3949,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "i09no"
+                        "id": "i5xbw"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "ixcul"
+                            "id": "ihd18"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "i98yl"
+                                "id": "iyg85"
                               },
                               "components": [
                                 {
@@ -3813,14 +3973,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "ijvv7"
+                                "id": "ia6uf"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "iq996"
+                                    "id": "illc2"
                                   },
                                   "components": [
                                     {
@@ -3833,7 +3993,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "idmhx"
+                                    "id": "i6x4k"
                                   },
                                   "components": [
                                     {
@@ -3846,7 +4006,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "ie249"
+                                    "id": "iidt7"
                                   },
                                   "components": [
                                     {
@@ -3859,7 +4019,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "ie9t6"
+                                    "id": "iqrhs"
                                   },
                                   "components": [
                                     {
@@ -3872,7 +4032,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "i8e4x"
+                                    "id": "ibja8"
                                   },
                                   "components": [
                                     {
@@ -3885,7 +4045,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "ip9pg"
+                                    "id": "intcg"
                                   },
                                   "components": [
                                     {
@@ -3898,7 +4058,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "ioz96"
+                                    "id": "i5gkvk"
                                   },
                                   "components": [
                                     {
@@ -3911,7 +4071,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "imcn3g"
+                                    "id": "i2sef1"
                                   },
                                   "components": [
                                     {
@@ -3924,7 +4084,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "ipddff"
+                                    "id": "irrejk"
                                   },
                                   "components": [
                                     {
@@ -3938,7 +4098,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "i6l9ah"
+                                "id": "incr1u"
                               },
                               "components": [
                                 {
@@ -3952,14 +4112,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "ikputy"
+                            "id": "im02zo"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ijjk42"
+                                "id": "i0h1lp"
                               },
                               "components": [
                                 {
@@ -3972,7 +4132,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ibvgsz"
+                                "id": "ikef7j"
                               },
                               "components": [
                                 {
@@ -4107,7 +4267,7 @@
                             },
                             {
                               "attributes": {
-                                "id": "ib2zal"
+                                "id": "ieuc55"
                               },
                               "components": [
                                 {
@@ -4123,7 +4283,7 @@
                                     "data-method-class": "7ec0e25e-a23f-4ff0-9ac1-c9e2552eb299",
                                     "data-method": "1eaac6aa-cba0-4ce2-9bf6-88c1b37b5908",
                                     "data-instance-source": "table-author-1",
-                                    "id": "itjhkd"
+                                    "id": "id5g8w"
                                   },
                                   "button-label": "+ method",
                                   "action-type": "run-method",
@@ -4151,7 +4311,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "jp5thYvXtyXhqmsD"
+                "id": "rZquqqdUja9QESUT"
               }
             ],
             "id": "page-author-1",
@@ -4175,20 +4335,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "ikpoep"
+                        "id": "ioyw6c"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "i0hj6e"
+                            "id": "iaqpdf"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "i74lo9"
+                                "id": "i4934v"
                               },
                               "components": [
                                 {
@@ -4199,14 +4359,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "iiqj92"
+                                "id": "iwbxy7"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "i43cmp"
+                                    "id": "ii8hba"
                                   },
                                   "components": [
                                     {
@@ -4219,7 +4379,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "ij675j"
+                                    "id": "iftdvl"
                                   },
                                   "components": [
                                     {
@@ -4232,7 +4392,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "izb1m9"
+                                    "id": "iuiyxm"
                                   },
                                   "components": [
                                     {
@@ -4245,7 +4405,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "ie5xdg"
+                                    "id": "iqbp76"
                                   },
                                   "components": [
                                     {
@@ -4258,7 +4418,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "im0bvj"
+                                    "id": "igpyek"
                                   },
                                   "components": [
                                     {
@@ -4271,7 +4431,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "ii04pg"
+                                    "id": "i3k3n6"
                                   },
                                   "components": [
                                     {
@@ -4284,7 +4444,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "i7rg78"
+                                    "id": "ic0t8r"
                                   },
                                   "components": [
                                     {
@@ -4297,7 +4457,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "idncoh"
+                                    "id": "i7t4bl"
                                   },
                                   "components": [
                                     {
@@ -4310,7 +4470,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "ihflpj"
+                                    "id": "ilhw1x"
                                   },
                                   "components": [
                                     {
@@ -4324,7 +4484,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "i78flc"
+                                "id": "iaf6q9"
                               },
                               "components": [
                                 {
@@ -4338,14 +4498,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "iep56w"
+                            "id": "ide2ft"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ilcykk"
+                                "id": "ig3if2"
                               },
                               "components": [
                                 {
@@ -4358,7 +4518,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "izxm2t"
+                                "id": "iycw9m"
                               },
                               "components": [
                                 {
@@ -4505,7 +4665,7 @@
                             },
                             {
                               "attributes": {
-                                "id": "i1l7f7"
+                                "id": "icomlh"
                               },
                               "components": [
                                 {
@@ -4521,7 +4681,7 @@
                                     "data-method-class": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                     "data-method": "bfec5d32-01fe-46dc-bc78-e2bf92214940",
                                     "data-instance-source": "table-institution-2",
-                                    "id": "ieo0lk"
+                                    "id": "i920nx"
                                   },
                                   "button-label": "+ method",
                                   "action-type": "run-method",
@@ -4549,7 +4709,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "o30gV68gUKHmWBzp"
+                "id": "w5Jf1Q5prjGaLG0e"
               }
             ],
             "id": "page-institution-2",
@@ -4573,20 +4733,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "imd7ew"
+                        "id": "i26gyh"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "izv67i"
+                            "id": "iv2qmh"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "iy7unm"
+                                "id": "idcj0k"
                               },
                               "components": [
                                 {
@@ -4597,14 +4757,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "ivu87m"
+                                "id": "icy63e"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "ieb1ts"
+                                    "id": "ibvo1f"
                                   },
                                   "components": [
                                     {
@@ -4617,7 +4777,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "i2k5li"
+                                    "id": "i0hkwt"
                                   },
                                   "components": [
                                     {
@@ -4630,7 +4790,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "irdr52"
+                                    "id": "i8w5ft"
                                   },
                                   "components": [
                                     {
@@ -4643,7 +4803,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "io185k"
+                                    "id": "i95s6h"
                                   },
                                   "components": [
                                     {
@@ -4656,7 +4816,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "igdggl"
+                                    "id": "irv8dl"
                                   },
                                   "components": [
                                     {
@@ -4669,7 +4829,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "i6tt03"
+                                    "id": "il3nr2"
                                   },
                                   "components": [
                                     {
@@ -4682,7 +4842,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "i9m5bj"
+                                    "id": "ijke0t"
                                   },
                                   "components": [
                                     {
@@ -4695,7 +4855,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "iouc67"
+                                    "id": "ish4v2"
                                   },
                                   "components": [
                                     {
@@ -4708,7 +4868,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "ibu3ok"
+                                    "id": "i1k6dl"
                                   },
                                   "components": [
                                     {
@@ -4722,7 +4882,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "ipm45o"
+                                "id": "iy50ra"
                               },
                               "components": [
                                 {
@@ -4736,14 +4896,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "iwd5bo"
+                            "id": "ioho9f"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "im486g"
+                                "id": "iib0ai"
                               },
                               "components": [
                                 {
@@ -4756,7 +4916,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "i77dtj"
+                                "id": "iwta6h"
                               },
                               "components": [
                                 {
@@ -4847,6 +5007,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -4952,6 +5118,12 @@
                                   "_expanded": false
                                 },
                                 {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
                                   "field": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                   "label": "6075a9b1-B358-45f2-9f19-Bbb469692f39",
                                   "columnType": "lookup",
@@ -5011,7 +5183,7 @@
                             },
                             {
                               "attributes": {
-                                "id": "ix52ow"
+                                "id": "izav9q"
                               },
                               "components": [
                                 {
@@ -5027,7 +5199,7 @@
                                     "data-method-class": "af82caa4-8337-414b-802d-1da5831a8f55",
                                     "data-method": "6e11e5aa-9f5b-4343-96b2-651c3ad92413",
                                     "data-instance-source": "table-conference-3",
-                                    "id": "izx9x8"
+                                    "id": "i9qfzz"
                                   },
                                   "button-label": "+ method",
                                   "action-type": "run-method",
@@ -5055,7 +5227,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "qAZIuaXRCAg2UZn6"
+                "id": "KvcC4YDSKIUFlwAn"
               }
             ],
             "id": "page-conference-3",
@@ -5079,20 +5251,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "idixv8"
+                        "id": "in4zmu"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "irnpll"
+                            "id": "i8j7fm"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "iqxisw"
+                                "id": "iy1yuf"
                               },
                               "components": [
                                 {
@@ -5103,14 +5275,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "ic0fqz"
+                                "id": "ibr1ol"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "i5p011"
+                                    "id": "i8l1yz"
                                   },
                                   "components": [
                                     {
@@ -5123,7 +5295,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "i1jy3w"
+                                    "id": "iz4zsu"
                                   },
                                   "components": [
                                     {
@@ -5136,7 +5308,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "i7l39z"
+                                    "id": "isci51"
                                   },
                                   "components": [
                                     {
@@ -5149,7 +5321,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "igk8tf"
+                                    "id": "idnvlc"
                                   },
                                   "components": [
                                     {
@@ -5162,7 +5334,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "i19r0k"
+                                    "id": "i56sv6"
                                   },
                                   "components": [
                                     {
@@ -5175,7 +5347,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "iwchff"
+                                    "id": "igo0cy"
                                   },
                                   "components": [
                                     {
@@ -5188,7 +5360,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "i9b113"
+                                    "id": "ilrfq8"
                                   },
                                   "components": [
                                     {
@@ -5201,7 +5373,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "i00mm3"
+                                    "id": "ip26r8"
                                   },
                                   "components": [
                                     {
@@ -5214,7 +5386,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "inrybf"
+                                    "id": "i9kdz5"
                                   },
                                   "components": [
                                     {
@@ -5228,7 +5400,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "ir5rtb"
+                                "id": "iklu5i"
                               },
                               "components": [
                                 {
@@ -5242,14 +5414,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "i0210l"
+                            "id": "ik7hy3"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ikc5rq"
+                                "id": "in1myb"
                               },
                               "components": [
                                 {
@@ -5262,7 +5434,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ih0qda"
+                                "id": "ia3slx"
                               },
                               "components": [
                                 {
@@ -5329,6 +5501,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -5410,6 +5588,12 @@
                                   "_expanded": false
                                 },
                                 {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
                                   "field": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                   "label": "6075a9b1-B358-45f2-9f19-Bbb469692f39",
                                   "columnType": "lookup",
@@ -5469,7 +5653,7 @@
                             },
                             {
                               "attributes": {
-                                "id": "ipptni"
+                                "id": "indie3"
                               },
                               "components": [
                                 {
@@ -5485,7 +5669,7 @@
                                     "data-method-class": "98119cf8-0e22-4f49-8904-a85628942578",
                                     "data-method": "c87c9faf-9405-458b-8ec2-1aee3f620d05",
                                     "data-instance-source": "table-journal-4",
-                                    "id": "ilc7ov"
+                                    "id": "i1ye9k"
                                   },
                                   "button-label": "+ method",
                                   "action-type": "run-method",
@@ -5513,7 +5697,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "Zo4nxinRcDqfU2Nc"
+                "id": "SsHNLHqrcRI1wZrP"
               }
             ],
             "id": "page-journal-4",
@@ -5537,20 +5721,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "ieeg57"
+                        "id": "iwole4"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "ii1l18"
+                            "id": "i9h8yg"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "i74a4x"
+                                "id": "i84ky7"
                               },
                               "components": [
                                 {
@@ -5561,14 +5745,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "ihw19a"
+                                "id": "isog3c"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "izws3t"
+                                    "id": "ihdhgq"
                                   },
                                   "components": [
                                     {
@@ -5581,7 +5765,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "ixcm3g"
+                                    "id": "i8rpvi"
                                   },
                                   "components": [
                                     {
@@ -5594,7 +5778,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "ipsjjg"
+                                    "id": "id0mbg"
                                   },
                                   "components": [
                                     {
@@ -5607,7 +5791,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "iu0qor"
+                                    "id": "i0w6hy"
                                   },
                                   "components": [
                                     {
@@ -5620,7 +5804,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "iww5ks"
+                                    "id": "ix8cfv"
                                   },
                                   "components": [
                                     {
@@ -5633,7 +5817,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "i1kb68"
+                                    "id": "iveg5b"
                                   },
                                   "components": [
                                     {
@@ -5646,7 +5830,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "impaan"
+                                    "id": "i3yvh8"
                                   },
                                   "components": [
                                     {
@@ -5659,7 +5843,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "iazkdk"
+                                    "id": "iaxril"
                                   },
                                   "components": [
                                     {
@@ -5672,7 +5856,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "i6do8s"
+                                    "id": "i2fi5t"
                                   },
                                   "components": [
                                     {
@@ -5686,7 +5870,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "iwqouy"
+                                "id": "i2jf37"
                               },
                               "components": [
                                 {
@@ -5700,14 +5884,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "ijme6l"
+                            "id": "ictoku"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "izjwfi"
+                                "id": "isgqk1"
                               },
                               "components": [
                                 {
@@ -5720,7 +5904,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ipaz24"
+                                "id": "id1b4j"
                               },
                               "components": [
                                 {
@@ -5769,6 +5953,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -5832,6 +6022,12 @@
                                   "_expanded": false
                                 },
                                 {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
                                   "field": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                   "label": "6075a9b1-B358-45f2-9f19-Bbb469692f39",
                                   "columnType": "lookup",
@@ -5901,7 +6097,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "PYrU2DA88DAMXaqg"
+                "id": "G00r8qS8wYFWGTEc"
               }
             ],
             "id": "page-others-5",
@@ -5925,20 +6121,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "iobvvk"
+                        "id": "i84gts"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "i8l5xj"
+                            "id": "iltrn1"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "incsxu"
+                                "id": "itw9n1"
                               },
                               "components": [
                                 {
@@ -5949,14 +6145,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "iag35w"
+                                "id": "imbwk1"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "i76sqp"
+                                    "id": "ih9k2e"
                                   },
                                   "components": [
                                     {
@@ -5969,7 +6165,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "i9h8e9"
+                                    "id": "i7uq5e"
                                   },
                                   "components": [
                                     {
@@ -5982,7 +6178,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "i9n10h"
+                                    "id": "iztvpk"
                                   },
                                   "components": [
                                     {
@@ -5995,7 +6191,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "iceq9j"
+                                    "id": "itnwt4"
                                   },
                                   "components": [
                                     {
@@ -6008,7 +6204,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "iddek8"
+                                    "id": "igmd84"
                                   },
                                   "components": [
                                     {
@@ -6021,7 +6217,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "i8ptj6"
+                                    "id": "iglnid"
                                   },
                                   "components": [
                                     {
@@ -6034,7 +6230,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "ig95rm"
+                                    "id": "imtol6"
                                   },
                                   "components": [
                                     {
@@ -6047,7 +6243,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "iuti8d"
+                                    "id": "i1yt0u"
                                   },
                                   "components": [
                                     {
@@ -6060,7 +6256,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "ixfbg1"
+                                    "id": "ig2qli"
                                   },
                                   "components": [
                                     {
@@ -6074,7 +6270,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "ir3lch"
+                                "id": "it0xj9"
                               },
                               "components": [
                                 {
@@ -6088,14 +6284,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "i1deuw"
+                            "id": "icbztj"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "iw9nfc"
+                                "id": "is4j81"
                               },
                               "components": [
                                 {
@@ -6108,7 +6304,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ipq1z6"
+                                "id": "iqf65j"
                               },
                               "components": [
                                 {
@@ -6163,6 +6359,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -6232,6 +6434,12 @@
                                   "_expanded": false
                                 },
                                 {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
                                   "field": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                   "label": "6075a9b1-B358-45f2-9f19-Bbb469692f39",
                                   "columnType": "lookup",
@@ -6301,7 +6509,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "1AZlviLHbBHeJxLU"
+                "id": "e8bVaOsVsBHjtWHs"
               }
             ],
             "id": "page-thesis-6",
@@ -6325,20 +6533,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "i095o7"
+                        "id": "iwspul"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "i6p1cz"
+                            "id": "ienzlk"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "iyhj54"
+                                "id": "icuz8r"
                               },
                               "components": [
                                 {
@@ -6349,14 +6557,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "i15dw5"
+                                "id": "i6vxtl"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "ii0zk8"
+                                    "id": "ivzgzr"
                                   },
                                   "components": [
                                     {
@@ -6369,7 +6577,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "izeszi"
+                                    "id": "ihpjqw"
                                   },
                                   "components": [
                                     {
@@ -6382,7 +6590,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "i8sa8f"
+                                    "id": "iwvnnq"
                                   },
                                   "components": [
                                     {
@@ -6395,7 +6603,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "ib714g"
+                                    "id": "ijq8oa"
                                   },
                                   "components": [
                                     {
@@ -6408,7 +6616,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "i4miy1"
+                                    "id": "igpwx9"
                                   },
                                   "components": [
                                     {
@@ -6421,7 +6629,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "ilkxlh"
+                                    "id": "iuvqon"
                                   },
                                   "components": [
                                     {
@@ -6434,7 +6642,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "iofjhb"
+                                    "id": "i2s84p"
                                   },
                                   "components": [
                                     {
@@ -6447,7 +6655,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "io0g5s"
+                                    "id": "iw0ld3"
                                   },
                                   "components": [
                                     {
@@ -6460,7 +6668,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "izpdy5"
+                                    "id": "iojx72"
                                   },
                                   "components": [
                                     {
@@ -6474,7 +6682,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "iv28s8"
+                                "id": "i3ywpb"
                               },
                               "components": [
                                 {
@@ -6488,14 +6696,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "id0gl3"
+                            "id": "i0f7e3"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ibmrxe"
+                                "id": "i5qnyi"
                               },
                               "components": [
                                 {
@@ -6508,7 +6716,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "iqi1f8"
+                                "id": "ifi847"
                               },
                               "components": [
                                 {
@@ -6551,6 +6759,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -6608,6 +6822,12 @@
                                   "_expanded": false
                                 },
                                 {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
                                   "field": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                   "label": "6075a9b1-B358-45f2-9f19-Bbb469692f39",
                                   "columnType": "lookup",
@@ -6677,7 +6897,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "VTlLTIMKcSp3fG7X"
+                "id": "cHNwsDuFYmqgrFw4"
               }
             ],
             "id": "page-book-7",
@@ -6701,20 +6921,20 @@
                   "components": [
                     {
                       "attributes": {
-                        "id": "ifnes7"
+                        "id": "iaisy8"
                       },
                       "components": [
                         {
                           "tagName": "nav",
                           "attributes": {
-                            "id": "itjjp6"
+                            "id": "ijh1in"
                           },
                           "components": [
                             {
                               "tagName": "h2",
                               "type": "text",
                               "attributes": {
-                                "id": "igw2yy"
+                                "id": "i3ebwn"
                               },
                               "components": [
                                 {
@@ -6725,14 +6945,14 @@
                             },
                             {
                               "attributes": {
-                                "id": "i10xmg"
+                                "id": "iapgvj"
                               },
                               "components": [
                                 {
                                   "type": "link",
                                   "attributes": {
                                     "href": "/publication",
-                                    "id": "ixs9ll"
+                                    "id": "ixg7wf"
                                   },
                                   "components": [
                                     {
@@ -6745,7 +6965,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/author",
-                                    "id": "i4ynrm"
+                                    "id": "iylxmh"
                                   },
                                   "components": [
                                     {
@@ -6758,7 +6978,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/institution",
-                                    "id": "i6gfu2"
+                                    "id": "i8xeam"
                                   },
                                   "components": [
                                     {
@@ -6771,7 +6991,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/conference",
-                                    "id": "igk6gm"
+                                    "id": "i6tnzj"
                                   },
                                   "components": [
                                     {
@@ -6784,7 +7004,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/journal",
-                                    "id": "im8o14"
+                                    "id": "ijnfu7"
                                   },
                                   "components": [
                                     {
@@ -6797,7 +7017,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/others",
-                                    "id": "is7fi2"
+                                    "id": "iyim5x"
                                   },
                                   "components": [
                                     {
@@ -6810,7 +7030,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/thesis",
-                                    "id": "ixogef"
+                                    "id": "isb8mh"
                                   },
                                   "components": [
                                     {
@@ -6823,7 +7043,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/book",
-                                    "id": "idbiz9"
+                                    "id": "id2boy"
                                   },
                                   "components": [
                                     {
@@ -6836,7 +7056,7 @@
                                   "type": "link",
                                   "attributes": {
                                     "href": "/proceedings",
-                                    "id": "i6odn6"
+                                    "id": "i8bph1"
                                   },
                                   "components": [
                                     {
@@ -6850,7 +7070,7 @@
                             {
                               "type": "text",
                               "attributes": {
-                                "id": "ijmth2"
+                                "id": "iagyt7"
                               },
                               "components": [
                                 {
@@ -6864,14 +7084,14 @@
                         {
                           "tagName": "main",
                           "attributes": {
-                            "id": "iqhwdj"
+                            "id": "i8o1ki"
                           },
                           "components": [
                             {
                               "tagName": "h1",
                               "type": "text",
                               "attributes": {
-                                "id": "ivs6gl"
+                                "id": "i0erkg"
                               },
                               "components": [
                                 {
@@ -6884,7 +7104,7 @@
                               "tagName": "p",
                               "type": "text",
                               "attributes": {
-                                "id": "ixo0m3"
+                                "id": "it09s7"
                               },
                               "components": [
                                 {
@@ -6975,6 +7195,12 @@
                                   {
                                     "field": "year",
                                     "label": "Year",
+                                    "columnType": "field",
+                                    "_expanded": false
+                                  },
+                                  {
+                                    "field": "publication_type",
+                                    "label": "Publication Type",
                                     "columnType": "field",
                                     "_expanded": false
                                   },
@@ -7080,6 +7306,12 @@
                                   "_expanded": false
                                 },
                                 {
+                                  "field": "publication_type",
+                                  "label": "Publication Type",
+                                  "columnType": "field",
+                                  "_expanded": false
+                                },
+                                {
                                   "field": "6075a9b1-b358-45f2-9f19-bbb469692f39",
                                   "label": "6075a9b1-B358-45f2-9f19-Bbb469692f39",
                                   "columnType": "lookup",
@@ -7149,7 +7381,7 @@
                     "tagName": "html"
                   }
                 },
-                "id": "UZgca1B4eEftXbN4"
+                "id": "q03uUC0lS5tGLMTc"
               }
             ],
             "id": "page-proceedings-8",
@@ -7499,7 +7731,7 @@
           },
           {
             "selectors": [
-              "#iqsri"
+              "#ityuj"
             ],
             "style": {
               "margin-top": "0",
@@ -7510,7 +7742,7 @@
           },
           {
             "selectors": [
-              "#iiddu"
+              "#i4m7p"
             ],
             "style": {
               "color": "white",
@@ -7524,7 +7756,7 @@
           },
           {
             "selectors": [
-              "#immha"
+              "#iw8ik"
             ],
             "style": {
               "color": "white",
@@ -7538,7 +7770,7 @@
           },
           {
             "selectors": [
-              "#i082l"
+              "#i3hcj"
             ],
             "style": {
               "color": "white",
@@ -7552,7 +7784,7 @@
           },
           {
             "selectors": [
-              "#ipf17"
+              "#ijhgp"
             ],
             "style": {
               "color": "white",
@@ -7566,7 +7798,7 @@
           },
           {
             "selectors": [
-              "#it8ku"
+              "#i1kpz"
             ],
             "style": {
               "color": "white",
@@ -7580,7 +7812,7 @@
           },
           {
             "selectors": [
-              "#iqwll"
+              "#iyqng"
             ],
             "style": {
               "color": "white",
@@ -7594,7 +7826,7 @@
           },
           {
             "selectors": [
-              "#i8c6g"
+              "#i5v8k"
             ],
             "style": {
               "color": "white",
@@ -7608,7 +7840,7 @@
           },
           {
             "selectors": [
-              "#i8p3h"
+              "#ihnh3"
             ],
             "style": {
               "color": "white",
@@ -7622,7 +7854,7 @@
           },
           {
             "selectors": [
-              "#ibt39"
+              "#i3w1l"
             ],
             "style": {
               "color": "white",
@@ -7636,7 +7868,7 @@
           },
           {
             "selectors": [
-              "#iaiib"
+              "#iix0g"
             ],
             "style": {
               "display": "flex",
@@ -7646,7 +7878,7 @@
           },
           {
             "selectors": [
-              "#ismp6"
+              "#ip60j"
             ],
             "style": {
               "margin-top": "auto",
@@ -7659,7 +7891,7 @@
           },
           {
             "selectors": [
-              "#iwzmr"
+              "#i2h5q"
             ],
             "style": {
               "width": "250px",
@@ -7673,7 +7905,7 @@
           },
           {
             "selectors": [
-              "#i4q94"
+              "#issun"
             ],
             "style": {
               "margin-top": "0",
@@ -7684,7 +7916,7 @@
           },
           {
             "selectors": [
-              "#ilzjz"
+              "#i0hkj"
             ],
             "style": {
               "color": "#666",
@@ -7693,16 +7925,7 @@
           },
           {
             "selectors": [
-              "#table-publication-0"
-            ],
-            "style": {
-              "width": "100%",
-              "min-height": "400px"
-            }
-          },
-          {
-            "selectors": [
-              "#ilb13"
+              "#ij8aj"
             ],
             "style": {
               "flex": "1",
@@ -7713,7 +7936,7 @@
           },
           {
             "selectors": [
-              "#in8oo"
+              "#iv6l6"
             ],
             "style": {
               "display": "flex",
@@ -7723,7 +7946,7 @@
           },
           {
             "selectors": [
-              "#i98yl"
+              "#iyg85"
             ],
             "style": {
               "margin-top": "0",
@@ -7734,7 +7957,7 @@
           },
           {
             "selectors": [
-              "#iq996"
+              "#illc2"
             ],
             "style": {
               "color": "white",
@@ -7748,7 +7971,7 @@
           },
           {
             "selectors": [
-              "#idmhx"
+              "#i6x4k"
             ],
             "style": {
               "color": "white",
@@ -7762,7 +7985,7 @@
           },
           {
             "selectors": [
-              "#ie249"
+              "#iidt7"
             ],
             "style": {
               "color": "white",
@@ -7776,7 +7999,7 @@
           },
           {
             "selectors": [
-              "#ie9t6"
+              "#iqrhs"
             ],
             "style": {
               "color": "white",
@@ -7790,7 +8013,7 @@
           },
           {
             "selectors": [
-              "#i8e4x"
+              "#ibja8"
             ],
             "style": {
               "color": "white",
@@ -7804,7 +8027,7 @@
           },
           {
             "selectors": [
-              "#ip9pg"
+              "#intcg"
             ],
             "style": {
               "color": "white",
@@ -7818,7 +8041,7 @@
           },
           {
             "selectors": [
-              "#ioz96"
+              "#i5gkvk"
             ],
             "style": {
               "color": "white",
@@ -7832,7 +8055,7 @@
           },
           {
             "selectors": [
-              "#imcn3g"
+              "#i2sef1"
             ],
             "style": {
               "color": "white",
@@ -7846,7 +8069,7 @@
           },
           {
             "selectors": [
-              "#ipddff"
+              "#irrejk"
             ],
             "style": {
               "color": "white",
@@ -7860,7 +8083,7 @@
           },
           {
             "selectors": [
-              "#ijvv7"
+              "#ia6uf"
             ],
             "style": {
               "display": "flex",
@@ -7870,7 +8093,7 @@
           },
           {
             "selectors": [
-              "#i6l9ah"
+              "#incr1u"
             ],
             "style": {
               "margin-top": "auto",
@@ -7883,7 +8106,7 @@
           },
           {
             "selectors": [
-              "#ixcul"
+              "#ihd18"
             ],
             "style": {
               "width": "250px",
@@ -7897,7 +8120,7 @@
           },
           {
             "selectors": [
-              "#ijjk42"
+              "#i0h1lp"
             ],
             "style": {
               "margin-top": "0",
@@ -7908,7 +8131,7 @@
           },
           {
             "selectors": [
-              "#ibvgsz"
+              "#ikef7j"
             ],
             "style": {
               "color": "#666",
@@ -7926,7 +8149,7 @@
           },
           {
             "selectors": [
-              "#itjhkd"
+              "#id5g8w"
             ],
             "style": {
               "display": "inline-flex",
@@ -7947,7 +8170,7 @@
           },
           {
             "selectors": [
-              "#ib2zal"
+              "#ieuc55"
             ],
             "style": {
               "margin-top": "20px",
@@ -7958,7 +8181,7 @@
           },
           {
             "selectors": [
-              "#ikputy"
+              "#im02zo"
             ],
             "style": {
               "flex": "1",
@@ -7969,7 +8192,7 @@
           },
           {
             "selectors": [
-              "#i09no"
+              "#i5xbw"
             ],
             "style": {
               "display": "flex",
@@ -7979,7 +8202,7 @@
           },
           {
             "selectors": [
-              "#i74lo9"
+              "#i4934v"
             ],
             "style": {
               "margin-top": "0",
@@ -7990,7 +8213,7 @@
           },
           {
             "selectors": [
-              "#i43cmp"
+              "#ii8hba"
             ],
             "style": {
               "color": "white",
@@ -8004,7 +8227,7 @@
           },
           {
             "selectors": [
-              "#ij675j"
+              "#iftdvl"
             ],
             "style": {
               "color": "white",
@@ -8018,7 +8241,7 @@
           },
           {
             "selectors": [
-              "#izb1m9"
+              "#iuiyxm"
             ],
             "style": {
               "color": "white",
@@ -8032,7 +8255,7 @@
           },
           {
             "selectors": [
-              "#ie5xdg"
+              "#iqbp76"
             ],
             "style": {
               "color": "white",
@@ -8046,7 +8269,7 @@
           },
           {
             "selectors": [
-              "#im0bvj"
+              "#igpyek"
             ],
             "style": {
               "color": "white",
@@ -8060,7 +8283,7 @@
           },
           {
             "selectors": [
-              "#ii04pg"
+              "#i3k3n6"
             ],
             "style": {
               "color": "white",
@@ -8074,7 +8297,7 @@
           },
           {
             "selectors": [
-              "#i7rg78"
+              "#ic0t8r"
             ],
             "style": {
               "color": "white",
@@ -8088,7 +8311,7 @@
           },
           {
             "selectors": [
-              "#idncoh"
+              "#i7t4bl"
             ],
             "style": {
               "color": "white",
@@ -8102,7 +8325,7 @@
           },
           {
             "selectors": [
-              "#ihflpj"
+              "#ilhw1x"
             ],
             "style": {
               "color": "white",
@@ -8116,7 +8339,7 @@
           },
           {
             "selectors": [
-              "#iiqj92"
+              "#iwbxy7"
             ],
             "style": {
               "display": "flex",
@@ -8126,7 +8349,7 @@
           },
           {
             "selectors": [
-              "#i78flc"
+              "#iaf6q9"
             ],
             "style": {
               "margin-top": "auto",
@@ -8139,7 +8362,7 @@
           },
           {
             "selectors": [
-              "#i0hj6e"
+              "#iaqpdf"
             ],
             "style": {
               "width": "250px",
@@ -8153,7 +8376,7 @@
           },
           {
             "selectors": [
-              "#ilcykk"
+              "#ig3if2"
             ],
             "style": {
               "margin-top": "0",
@@ -8164,7 +8387,7 @@
           },
           {
             "selectors": [
-              "#izxm2t"
+              "#iycw9m"
             ],
             "style": {
               "color": "#666",
@@ -8182,7 +8405,7 @@
           },
           {
             "selectors": [
-              "#ieo0lk"
+              "#i920nx"
             ],
             "style": {
               "display": "inline-flex",
@@ -8203,7 +8426,7 @@
           },
           {
             "selectors": [
-              "#i1l7f7"
+              "#icomlh"
             ],
             "style": {
               "margin-top": "20px",
@@ -8214,7 +8437,7 @@
           },
           {
             "selectors": [
-              "#iep56w"
+              "#ide2ft"
             ],
             "style": {
               "flex": "1",
@@ -8225,7 +8448,7 @@
           },
           {
             "selectors": [
-              "#ikpoep"
+              "#ioyw6c"
             ],
             "style": {
               "display": "flex",
@@ -8235,7 +8458,7 @@
           },
           {
             "selectors": [
-              "#iy7unm"
+              "#idcj0k"
             ],
             "style": {
               "margin-top": "0",
@@ -8246,7 +8469,7 @@
           },
           {
             "selectors": [
-              "#ieb1ts"
+              "#ibvo1f"
             ],
             "style": {
               "color": "white",
@@ -8260,7 +8483,7 @@
           },
           {
             "selectors": [
-              "#i2k5li"
+              "#i0hkwt"
             ],
             "style": {
               "color": "white",
@@ -8274,7 +8497,7 @@
           },
           {
             "selectors": [
-              "#irdr52"
+              "#i8w5ft"
             ],
             "style": {
               "color": "white",
@@ -8288,7 +8511,7 @@
           },
           {
             "selectors": [
-              "#io185k"
+              "#i95s6h"
             ],
             "style": {
               "color": "white",
@@ -8302,7 +8525,7 @@
           },
           {
             "selectors": [
-              "#igdggl"
+              "#irv8dl"
             ],
             "style": {
               "color": "white",
@@ -8316,7 +8539,7 @@
           },
           {
             "selectors": [
-              "#i6tt03"
+              "#il3nr2"
             ],
             "style": {
               "color": "white",
@@ -8330,7 +8553,7 @@
           },
           {
             "selectors": [
-              "#i9m5bj"
+              "#ijke0t"
             ],
             "style": {
               "color": "white",
@@ -8344,7 +8567,7 @@
           },
           {
             "selectors": [
-              "#iouc67"
+              "#ish4v2"
             ],
             "style": {
               "color": "white",
@@ -8358,7 +8581,7 @@
           },
           {
             "selectors": [
-              "#ibu3ok"
+              "#i1k6dl"
             ],
             "style": {
               "color": "white",
@@ -8372,7 +8595,7 @@
           },
           {
             "selectors": [
-              "#ivu87m"
+              "#icy63e"
             ],
             "style": {
               "display": "flex",
@@ -8382,7 +8605,7 @@
           },
           {
             "selectors": [
-              "#ipm45o"
+              "#iy50ra"
             ],
             "style": {
               "margin-top": "auto",
@@ -8395,7 +8618,7 @@
           },
           {
             "selectors": [
-              "#izv67i"
+              "#iv2qmh"
             ],
             "style": {
               "width": "250px",
@@ -8409,7 +8632,7 @@
           },
           {
             "selectors": [
-              "#im486g"
+              "#iib0ai"
             ],
             "style": {
               "margin-top": "0",
@@ -8420,7 +8643,7 @@
           },
           {
             "selectors": [
-              "#i77dtj"
+              "#iwta6h"
             ],
             "style": {
               "color": "#666",
@@ -8438,7 +8661,7 @@
           },
           {
             "selectors": [
-              "#izx9x8"
+              "#i9qfzz"
             ],
             "style": {
               "display": "inline-flex",
@@ -8459,7 +8682,7 @@
           },
           {
             "selectors": [
-              "#ix52ow"
+              "#izav9q"
             ],
             "style": {
               "margin-top": "20px",
@@ -8470,7 +8693,7 @@
           },
           {
             "selectors": [
-              "#iwd5bo"
+              "#ioho9f"
             ],
             "style": {
               "flex": "1",
@@ -8481,7 +8704,7 @@
           },
           {
             "selectors": [
-              "#imd7ew"
+              "#i26gyh"
             ],
             "style": {
               "display": "flex",
@@ -8491,7 +8714,7 @@
           },
           {
             "selectors": [
-              "#iqxisw"
+              "#iy1yuf"
             ],
             "style": {
               "margin-top": "0",
@@ -8502,7 +8725,7 @@
           },
           {
             "selectors": [
-              "#i5p011"
+              "#i8l1yz"
             ],
             "style": {
               "color": "white",
@@ -8516,7 +8739,7 @@
           },
           {
             "selectors": [
-              "#i1jy3w"
+              "#iz4zsu"
             ],
             "style": {
               "color": "white",
@@ -8530,7 +8753,7 @@
           },
           {
             "selectors": [
-              "#i7l39z"
+              "#isci51"
             ],
             "style": {
               "color": "white",
@@ -8544,7 +8767,7 @@
           },
           {
             "selectors": [
-              "#igk8tf"
+              "#idnvlc"
             ],
             "style": {
               "color": "white",
@@ -8558,7 +8781,7 @@
           },
           {
             "selectors": [
-              "#i19r0k"
+              "#i56sv6"
             ],
             "style": {
               "color": "white",
@@ -8572,7 +8795,7 @@
           },
           {
             "selectors": [
-              "#iwchff"
+              "#igo0cy"
             ],
             "style": {
               "color": "white",
@@ -8586,7 +8809,7 @@
           },
           {
             "selectors": [
-              "#i9b113"
+              "#ilrfq8"
             ],
             "style": {
               "color": "white",
@@ -8600,7 +8823,7 @@
           },
           {
             "selectors": [
-              "#i00mm3"
+              "#ip26r8"
             ],
             "style": {
               "color": "white",
@@ -8614,7 +8837,7 @@
           },
           {
             "selectors": [
-              "#inrybf"
+              "#i9kdz5"
             ],
             "style": {
               "color": "white",
@@ -8628,7 +8851,7 @@
           },
           {
             "selectors": [
-              "#ic0fqz"
+              "#ibr1ol"
             ],
             "style": {
               "display": "flex",
@@ -8638,7 +8861,7 @@
           },
           {
             "selectors": [
-              "#ir5rtb"
+              "#iklu5i"
             ],
             "style": {
               "margin-top": "auto",
@@ -8651,7 +8874,7 @@
           },
           {
             "selectors": [
-              "#irnpll"
+              "#i8j7fm"
             ],
             "style": {
               "width": "250px",
@@ -8665,7 +8888,7 @@
           },
           {
             "selectors": [
-              "#ikc5rq"
+              "#in1myb"
             ],
             "style": {
               "margin-top": "0",
@@ -8676,7 +8899,7 @@
           },
           {
             "selectors": [
-              "#ih0qda"
+              "#ia3slx"
             ],
             "style": {
               "color": "#666",
@@ -8694,7 +8917,7 @@
           },
           {
             "selectors": [
-              "#ilc7ov"
+              "#i1ye9k"
             ],
             "style": {
               "display": "inline-flex",
@@ -8715,7 +8938,7 @@
           },
           {
             "selectors": [
-              "#ipptni"
+              "#indie3"
             ],
             "style": {
               "margin-top": "20px",
@@ -8726,7 +8949,7 @@
           },
           {
             "selectors": [
-              "#i0210l"
+              "#ik7hy3"
             ],
             "style": {
               "flex": "1",
@@ -8737,7 +8960,7 @@
           },
           {
             "selectors": [
-              "#idixv8"
+              "#in4zmu"
             ],
             "style": {
               "display": "flex",
@@ -8747,7 +8970,7 @@
           },
           {
             "selectors": [
-              "#i74a4x"
+              "#i84ky7"
             ],
             "style": {
               "margin-top": "0",
@@ -8758,7 +8981,7 @@
           },
           {
             "selectors": [
-              "#izws3t"
+              "#ihdhgq"
             ],
             "style": {
               "color": "white",
@@ -8772,7 +8995,7 @@
           },
           {
             "selectors": [
-              "#ixcm3g"
+              "#i8rpvi"
             ],
             "style": {
               "color": "white",
@@ -8786,7 +9009,7 @@
           },
           {
             "selectors": [
-              "#ipsjjg"
+              "#id0mbg"
             ],
             "style": {
               "color": "white",
@@ -8800,7 +9023,7 @@
           },
           {
             "selectors": [
-              "#iu0qor"
+              "#i0w6hy"
             ],
             "style": {
               "color": "white",
@@ -8814,7 +9037,7 @@
           },
           {
             "selectors": [
-              "#iww5ks"
+              "#ix8cfv"
             ],
             "style": {
               "color": "white",
@@ -8828,7 +9051,7 @@
           },
           {
             "selectors": [
-              "#i1kb68"
+              "#iveg5b"
             ],
             "style": {
               "color": "white",
@@ -8842,7 +9065,7 @@
           },
           {
             "selectors": [
-              "#impaan"
+              "#i3yvh8"
             ],
             "style": {
               "color": "white",
@@ -8856,7 +9079,7 @@
           },
           {
             "selectors": [
-              "#iazkdk"
+              "#iaxril"
             ],
             "style": {
               "color": "white",
@@ -8870,7 +9093,7 @@
           },
           {
             "selectors": [
-              "#i6do8s"
+              "#i2fi5t"
             ],
             "style": {
               "color": "white",
@@ -8884,7 +9107,7 @@
           },
           {
             "selectors": [
-              "#ihw19a"
+              "#isog3c"
             ],
             "style": {
               "display": "flex",
@@ -8894,7 +9117,7 @@
           },
           {
             "selectors": [
-              "#iwqouy"
+              "#i2jf37"
             ],
             "style": {
               "margin-top": "auto",
@@ -8907,7 +9130,7 @@
           },
           {
             "selectors": [
-              "#ii1l18"
+              "#i9h8yg"
             ],
             "style": {
               "width": "250px",
@@ -8921,7 +9144,7 @@
           },
           {
             "selectors": [
-              "#izjwfi"
+              "#isgqk1"
             ],
             "style": {
               "margin-top": "0",
@@ -8932,7 +9155,7 @@
           },
           {
             "selectors": [
-              "#ipaz24"
+              "#id1b4j"
             ],
             "style": {
               "color": "#666",
@@ -8950,7 +9173,7 @@
           },
           {
             "selectors": [
-              "#ijme6l"
+              "#ictoku"
             ],
             "style": {
               "flex": "1",
@@ -8961,7 +9184,7 @@
           },
           {
             "selectors": [
-              "#ieeg57"
+              "#iwole4"
             ],
             "style": {
               "display": "flex",
@@ -8971,7 +9194,7 @@
           },
           {
             "selectors": [
-              "#incsxu"
+              "#itw9n1"
             ],
             "style": {
               "margin-top": "0",
@@ -8982,7 +9205,7 @@
           },
           {
             "selectors": [
-              "#i76sqp"
+              "#ih9k2e"
             ],
             "style": {
               "color": "white",
@@ -8996,7 +9219,7 @@
           },
           {
             "selectors": [
-              "#i9h8e9"
+              "#i7uq5e"
             ],
             "style": {
               "color": "white",
@@ -9010,7 +9233,7 @@
           },
           {
             "selectors": [
-              "#i9n10h"
+              "#iztvpk"
             ],
             "style": {
               "color": "white",
@@ -9024,7 +9247,7 @@
           },
           {
             "selectors": [
-              "#iceq9j"
+              "#itnwt4"
             ],
             "style": {
               "color": "white",
@@ -9038,7 +9261,7 @@
           },
           {
             "selectors": [
-              "#iddek8"
+              "#igmd84"
             ],
             "style": {
               "color": "white",
@@ -9052,7 +9275,7 @@
           },
           {
             "selectors": [
-              "#i8ptj6"
+              "#iglnid"
             ],
             "style": {
               "color": "white",
@@ -9066,7 +9289,7 @@
           },
           {
             "selectors": [
-              "#ig95rm"
+              "#imtol6"
             ],
             "style": {
               "color": "white",
@@ -9080,7 +9303,7 @@
           },
           {
             "selectors": [
-              "#iuti8d"
+              "#i1yt0u"
             ],
             "style": {
               "color": "white",
@@ -9094,7 +9317,7 @@
           },
           {
             "selectors": [
-              "#ixfbg1"
+              "#ig2qli"
             ],
             "style": {
               "color": "white",
@@ -9108,7 +9331,7 @@
           },
           {
             "selectors": [
-              "#iag35w"
+              "#imbwk1"
             ],
             "style": {
               "display": "flex",
@@ -9118,7 +9341,7 @@
           },
           {
             "selectors": [
-              "#ir3lch"
+              "#it0xj9"
             ],
             "style": {
               "margin-top": "auto",
@@ -9131,7 +9354,7 @@
           },
           {
             "selectors": [
-              "#i8l5xj"
+              "#iltrn1"
             ],
             "style": {
               "width": "250px",
@@ -9145,7 +9368,7 @@
           },
           {
             "selectors": [
-              "#iw9nfc"
+              "#is4j81"
             ],
             "style": {
               "margin-top": "0",
@@ -9156,7 +9379,7 @@
           },
           {
             "selectors": [
-              "#ipq1z6"
+              "#iqf65j"
             ],
             "style": {
               "color": "#666",
@@ -9174,7 +9397,7 @@
           },
           {
             "selectors": [
-              "#i1deuw"
+              "#icbztj"
             ],
             "style": {
               "flex": "1",
@@ -9185,7 +9408,7 @@
           },
           {
             "selectors": [
-              "#iobvvk"
+              "#i84gts"
             ],
             "style": {
               "display": "flex",
@@ -9195,7 +9418,7 @@
           },
           {
             "selectors": [
-              "#iyhj54"
+              "#icuz8r"
             ],
             "style": {
               "margin-top": "0",
@@ -9206,7 +9429,7 @@
           },
           {
             "selectors": [
-              "#ii0zk8"
+              "#ivzgzr"
             ],
             "style": {
               "color": "white",
@@ -9220,7 +9443,7 @@
           },
           {
             "selectors": [
-              "#izeszi"
+              "#ihpjqw"
             ],
             "style": {
               "color": "white",
@@ -9234,7 +9457,7 @@
           },
           {
             "selectors": [
-              "#i8sa8f"
+              "#iwvnnq"
             ],
             "style": {
               "color": "white",
@@ -9248,7 +9471,7 @@
           },
           {
             "selectors": [
-              "#ib714g"
+              "#ijq8oa"
             ],
             "style": {
               "color": "white",
@@ -9262,7 +9485,7 @@
           },
           {
             "selectors": [
-              "#i4miy1"
+              "#igpwx9"
             ],
             "style": {
               "color": "white",
@@ -9276,7 +9499,7 @@
           },
           {
             "selectors": [
-              "#ilkxlh"
+              "#iuvqon"
             ],
             "style": {
               "color": "white",
@@ -9290,7 +9513,7 @@
           },
           {
             "selectors": [
-              "#iofjhb"
+              "#i2s84p"
             ],
             "style": {
               "color": "white",
@@ -9304,7 +9527,7 @@
           },
           {
             "selectors": [
-              "#io0g5s"
+              "#iw0ld3"
             ],
             "style": {
               "color": "white",
@@ -9318,7 +9541,7 @@
           },
           {
             "selectors": [
-              "#izpdy5"
+              "#iojx72"
             ],
             "style": {
               "color": "white",
@@ -9332,7 +9555,7 @@
           },
           {
             "selectors": [
-              "#i15dw5"
+              "#i6vxtl"
             ],
             "style": {
               "display": "flex",
@@ -9342,7 +9565,7 @@
           },
           {
             "selectors": [
-              "#iv28s8"
+              "#i3ywpb"
             ],
             "style": {
               "margin-top": "auto",
@@ -9355,7 +9578,7 @@
           },
           {
             "selectors": [
-              "#i6p1cz"
+              "#ienzlk"
             ],
             "style": {
               "width": "250px",
@@ -9369,7 +9592,7 @@
           },
           {
             "selectors": [
-              "#ibmrxe"
+              "#i5qnyi"
             ],
             "style": {
               "margin-top": "0",
@@ -9380,7 +9603,7 @@
           },
           {
             "selectors": [
-              "#iqi1f8"
+              "#ifi847"
             ],
             "style": {
               "color": "#666",
@@ -9398,7 +9621,7 @@
           },
           {
             "selectors": [
-              "#id0gl3"
+              "#i0f7e3"
             ],
             "style": {
               "flex": "1",
@@ -9409,7 +9632,7 @@
           },
           {
             "selectors": [
-              "#i095o7"
+              "#iwspul"
             ],
             "style": {
               "display": "flex",
@@ -9419,7 +9642,7 @@
           },
           {
             "selectors": [
-              "#igw2yy"
+              "#i3ebwn"
             ],
             "style": {
               "margin-top": "0",
@@ -9430,7 +9653,7 @@
           },
           {
             "selectors": [
-              "#ixs9ll"
+              "#ixg7wf"
             ],
             "style": {
               "color": "white",
@@ -9444,7 +9667,7 @@
           },
           {
             "selectors": [
-              "#i4ynrm"
+              "#iylxmh"
             ],
             "style": {
               "color": "white",
@@ -9458,7 +9681,7 @@
           },
           {
             "selectors": [
-              "#i6gfu2"
+              "#i8xeam"
             ],
             "style": {
               "color": "white",
@@ -9472,7 +9695,7 @@
           },
           {
             "selectors": [
-              "#igk6gm"
+              "#i6tnzj"
             ],
             "style": {
               "color": "white",
@@ -9486,7 +9709,7 @@
           },
           {
             "selectors": [
-              "#im8o14"
+              "#ijnfu7"
             ],
             "style": {
               "color": "white",
@@ -9500,7 +9723,7 @@
           },
           {
             "selectors": [
-              "#is7fi2"
+              "#iyim5x"
             ],
             "style": {
               "color": "white",
@@ -9514,7 +9737,7 @@
           },
           {
             "selectors": [
-              "#ixogef"
+              "#isb8mh"
             ],
             "style": {
               "color": "white",
@@ -9528,7 +9751,7 @@
           },
           {
             "selectors": [
-              "#idbiz9"
+              "#id2boy"
             ],
             "style": {
               "color": "white",
@@ -9542,7 +9765,7 @@
           },
           {
             "selectors": [
-              "#i6odn6"
+              "#i8bph1"
             ],
             "style": {
               "color": "white",
@@ -9556,7 +9779,7 @@
           },
           {
             "selectors": [
-              "#i10xmg"
+              "#iapgvj"
             ],
             "style": {
               "display": "flex",
@@ -9566,7 +9789,7 @@
           },
           {
             "selectors": [
-              "#ijmth2"
+              "#iagyt7"
             ],
             "style": {
               "margin-top": "auto",
@@ -9579,7 +9802,7 @@
           },
           {
             "selectors": [
-              "#itjjp6"
+              "#ijh1in"
             ],
             "style": {
               "width": "250px",
@@ -9593,7 +9816,7 @@
           },
           {
             "selectors": [
-              "#ivs6gl"
+              "#i0erkg"
             ],
             "style": {
               "margin-top": "0",
@@ -9604,7 +9827,7 @@
           },
           {
             "selectors": [
-              "#ixo0m3"
+              "#it09s7"
             ],
             "style": {
               "color": "#666",
@@ -9622,7 +9845,7 @@
           },
           {
             "selectors": [
-              "#iqhwdj"
+              "#i8o1ki"
             ],
             "style": {
               "flex": "1",
@@ -9633,7 +9856,7 @@
           },
           {
             "selectors": [
-              "#ifnes7"
+              "#iaisy8"
             ],
             "style": {
               "display": "flex",
@@ -9646,7 +9869,7 @@
         "symbols": [],
         "version": "0.21.13"
       },
-      "lastUpdate": "2026-02-03T10:02:13.680Z"
+      "lastUpdate": "2026-02-03T11:35:37.446Z"
     },
     "QuantumCircuitDiagram": {
       "id": "f712161e-9b2b-4e17-9c89-1186259f15f7",
